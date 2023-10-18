@@ -107,8 +107,8 @@ body{
     text-decoration: none;
 }
 .top a:hover,
-.text-hover:hover,
-.name-hover:hover{
+.text:hover,
+.name:hover{
     color: var(--Blue);
 }
 .note-time{
