@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!----------notifications header starts---------->
+    <div class="top">
+      <h1 class="title">Notifications <span class="notification-number" id="notification-number">3</span></h1>
+      <div>
+        <a href="#" id="unread-noti-remover">Mark all as read</a>
+      </div>
+    </div>
+    <!-----------notifications header end----------->
+    <div class="notifications">
+      <!---------single notification starts------>
+      <div class="note unread">
+        <div class="avatar">
+          <img src="assets/images/avatar-mark-webber.webp" alt="">
+        </div>
+        <div class="noti-post">
+          <p class="note-text"><a href="#" class="name">Mark Webber</a> reacted to your recent post<a href="#"
+              class="text"> My
+              first tournament today!</a>
+            <span class="dot"></span>
+          </p>
+          <p class="note-time">1m ago</p>
+        </div>
+      </div>
+      <!--------single notification end--------->
+      <!---------single notification starts------>
+      <div class="note unread">
+        <div class="avatar">
+          <img src="assets/images/avatar-angela-gray.webp" alt="">
+        </div>
+        <div class="noti-post">
+          <p class="note-text"><a href="#" class="name">Angela Gray</a> followed you<span class="dot"></span></p>
+          <p class="note-time">5m ago</p>
+        </div>
+      </div>
+      <!--------single notification end--------->
+      <!---------single notification starts------>
+      <div class="note unread">
+        <div class="avatar">
+          <img src="assets/images/avatar-jacob-thompson.webp" alt="">
+        </div>
+        <div class="noti-post">
+          <p class="note-text">
+            <a href="#" class="name">Jacob Thompson</a> has joined your group <a href="#" class="text">Chess
+              Club</a><span class="dot"></span>
+          </p>
+          <p class="note-time">1 day ago</p>
+        </div>
+      </div>
+      <!--------single notification end--------->
+      <!---------single notification starts------>
+      <div class="note">
+        <div class="avatar">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+        </div>
+        <div class="noti-post">
+          <p class="note-text"><a href="#" class="name">Rizky Hasanuddin</a> sent you a private message</p>
+          <p class="note-time">5 days ago</p>
+          <div class="message">
+            <p>
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+              I'm already having lots of fun and improving my game.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--------single notification end--------->
+      <!---------single notification starts------>
+      <div class="note">
+        <div class="avatar">
+          <img src="assets/images/avatar-kimberly-smith.webp" alt="">
+        </div>
+        <div class="noti-post">
+          <p class="note-text"><a href="#" class="name">Kimberly Smith</a> commented on your picture</p>
+          <p class="note-time">1 week ago</p>
+        </div>
+        <div class="noti-img">
+          <a href="#"><img src="assets/images/image-chess.webp" alt=""></a>
+        </div>
+      </div>
+      <!--------single notification end--------->
+      <!---------single notification starts------>
+      <div class="note">
+        <div class="avatar">
+          <img src="assets/images/avatar-nathan-peterson.webp" alt="">
+        </div>
+        <div class="noti-post">
+          <p class="note-text">
+            <a href="#" class="name">Nathan Peterson</a> reacted to your recent post <a href="#" class="text">5 end-game
+              strategies to increase
+              your win rate</a>
+          </p>
+          <p class="note-time">2 weeks ago</p>
+        </div>
+      </div>
+      <!--------single notification end--------->
+      <!---------single notification starts------>
+      <div class="note">
+        <div class="avatar">
+          <img src="assets/images/avatar-anna-kim.webp" alt="">
+        </div>
+        <div class="noti-post">
+          <p class="note-text"><a href="#" class="name">Anna Kim</a> left the group <a href="#" class="text">Chess
+              Club</a>
+          </p>
+          <p class="note-time">2 weeks ago</p>
+        </div>
+      </div>
+      <!--------single notification end--------->
+    </div>
+  </div>
+  <br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Vivien</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+:root{
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+
+    --White: hsl(0, 0%, 100%); 
+    --Very-light-grayish-blue: hsl(210, 60%, 98%); 
+    --Light-grayish-blue-1: hsl(211, 68%, 94%); 
+    --Light-grayish-blue-2: hsl(205, 33%, 90%); 
+    --Grayish-blue: hsl(219, 14%, 63%); 
+    --Dark-grayish-blue: hsl(219, 12%, 42%); 
+    --Very-dark-blue: hsl(224, 21%, 14%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--Very-light-grayish-blue);
+    font-size: 16px;
+}
+.container{
+    max-width: 740px;
+    margin: 50px auto;
+    padding: 10px 20px;
+    background-color: var(--White);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px -13px var(--Light-grayish-blue-2);
+}
+/*-----------notifications header--------------*/
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.title{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 24px;
+}
+.notification-number{
+    padding: 2px 10px;
+    font-size: 16px;
+    background-color: var(--Blue);
+    color: var(--White);
+    border-radius: 20%;
+}
+
+/*---------------notifications-----------*/
+.notifications{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+}
+.note{
+    display: flex;
+    background-color: var(--White);
+    border-radius: 5px;
+}
+.unread{
+    background-color: var(--Very-light-grayish-blue);
+}
+.avatar img{
+    width: 50px;
+    margin: 15px;
+}
+.noti-post{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.note-text{
+    color: var(--Dark-grayish-blue);
+}
+.note-text .dot{
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    margin-left: 7px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+}
+.name{
+    color: var(--Very-dark-blue);
+}
+.text,
+.name{
+    font-weight: 800;
+    text-decoration: none;
+}
+.top a,
+.text{
+    color: var(--Dark-grayish-blue);
+    text-decoration: none;
+}
+.top a:hover,
+.text-hover:hover,
+.name-hover:hover{
+    color: var(--Blue);
+}
+.note-time{
+    margin-top: 3px;
+    color: var(--Grayish-blue);
+}
+.message{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-top: 10px;
+    padding: 15px;
+    color: var(--Dark-grayish-blue);
+    border: 1px solid var(--Light-grayish-blue-1);
+    border-radius: 5px;
+}
+.message:hover{
+    cursor: pointer;
+    background-color: var(--Light-grayish-blue-1);
+}
+.noti-img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+}
+.noti-img img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--Light-grayish-blue-2);
+    border-radius: 7px;
+}
+@media (max-width: 370px){
+    .top{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
