@@ -3,7 +3,7 @@
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
-## The challenge
+## The challenge 
 
 Your users should be able to: 
 
@@ -12,8 +12,9 @@ Your users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-##Screenshot
-![screenshot](assets/images/Notification_screen.png
+##Screenshot 
+
+![screenshot](assets/images/Notification_screen.png)
 
 ##Built with...
 - HTML5
