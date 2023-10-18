@@ -13,7 +13,7 @@ Your users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ##Screenshot
-![screenshot](assets/images/Notification_screen.jpg
+![screenshot](assets/images/Notification_screen.png
 
 ##Built with...
 - HTML5
