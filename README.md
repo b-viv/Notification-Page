@@ -1,8 +1,5 @@
 # Frontend Mentor - Notifications page
 
-
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
-
 ## The challenge 
 
 Your users should be able to: 
