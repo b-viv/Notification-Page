@@ -1,9 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
-
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    src: url(assets/fonts/PlusJakartaSans-ExtraBold.woff) format('woff'),
+         url(assets/fonts/PlusJakartaSans-ExtraBold.woff2) format('woff2');     
+}
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    src: url(assets/fonts/PlusJakartaSans-Medium.woff) format('woff'),
+         url(assets/fonts/PlusJakartaSans-Medium.woff2) format('woff2');
+}
+@font-face{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 300;
+    src: url(assets/fonts/PlusJakartaSans-Light.woff) format('woff'),
+         url(assets/fonts/PlusJakartaSans-Light.woff2) format('woff2');
+}
 :root{
     --Red: hsl(1, 90%, 64%);
     --Blue: hsl(219, 85%, 26%);
-
     --White: hsl(0, 0%, 100%); 
     --Very-light-grayish-blue: hsl(210, 60%, 98%); 
     --Light-grayish-blue-1: hsl(211, 68%, 94%); 
@@ -21,8 +36,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: var(--Very-light-grayish-blue);
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
 }
 .container{
@@ -54,7 +69,6 @@ body{
     color: var(--White);
     border-radius: 20%;
 }
-
 /*---------------notifications-----------*/
 .notifications{
     display: flex;
